@@ -93,3 +93,17 @@ Ejemplo rápido:
 <alto-engagement> Patrón breve + CTA </alto-engagement>  
 
 <bajo-engagement> Texto largo y genérico </bajo-engagement>
+
+
+
+
+¿Qué son las etiquetas XML en prompts?
+Las etiquetas XML son una técnica de estructuración que permite organizar y delimitar claramente diferentes secciones de información en un prompt. Funcionan como "contenedores" que ayudan al modelo de IA a entender mejor el contexto y las diferentes partes de tu solicitud.
+
+<rol> - Define quién debe actuar el modelo
+<contexto> - Información de fondo
+<tarea> - Qué debe hacer específicamente
+<restricciones> - Limitaciones técnicas o de otro tipo
+<ejemplos> - Casos de referencia
+<formato_respuesta> - Cómo quieres la salida
+<estilo> - Tono o enfoque de la respuesta
