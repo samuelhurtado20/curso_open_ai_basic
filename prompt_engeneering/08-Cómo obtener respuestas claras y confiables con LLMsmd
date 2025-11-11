@@ -1,0 +1,62 @@
+🎯Cómo obtener respuestas claras y confiables con LLMs
+Técnicas: 🧩 Cadena de pensamiento + 🔁 Self Consistency
+🧠 1. La cadena de pensamiento
+Qué es:
+
+Es el razonamiento paso a paso que sigue un modelo para llegar a una respuesta.
+
+Cómo pedirla:
+
+🗣️ Escribe → “Piensa paso a paso.”
+
+Ejemplo: tres camisas de 25 $ con 20 % de descuento
+
+1️⃣ 20 % de 25 = 5
+
+2️⃣ 25 − 5 = 20
+
+3️⃣ 3 × 20 = 60 $
+
+🟩 Resultado: el modelo muestra su lógica, no solo el cálculo final.
+
+⚡ 2. Modelos “rápidos” vs “pro”
+🕒 Rápidos: responden velozmente, con razonamiento limitado.
+
+🧭 Pro: disponen de más tiempo para pensar y razonar con mayor profundidad.
+
+💡 Ambos razonan; lo que cambia es la profundidad del proceso.
+
+🪄 3. Cómo activar el paso a paso
+🟢 Escribe: “Piensa paso a paso.”
+
+🔹 El modelo primero lista los pasos.
+
+🔹 Luego da la respuesta final.
+
+⚠️ Si no lo hace por sí solo, recuérdaselo en el prompt.
+
+🔀 4. Varios caminos, un mismo resultado
+Un problema puede resolverse de distintas formas.
+Esto sirve para verificar la coherencia:
+🟩 Si los métodos coinciden → mayor confianza.
+🟥 Si difieren → revisa el razonamiento.
+🔁 5. Técnica: Self Consistency
+Qué es:
+
+Pide al modelo varios métodos para un mismo problema y compara los resultados.
+
+Cómo aplicarla:
+
+ 1️⃣ Solicita tres métodos diferentes.
+
+ 2️⃣ Revisa los pasos de cada uno.
+
+ 3️⃣ Quédate con el resultado más repetido o coherente.
+
+Ventajas:
+
+ ✔️ Detecta errores
+
+ ✔️ Disminuye alucinaciones
+
+ ✔️ Mejora la fiabilidad
